@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.shape{
+    margin:10px;
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+    border:5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#Square:hover{
+    background-color: rgb(197, 15, 188);
+    
+}
+#Circle{
+    border-radius: 50%;
+    }
+#Circle:hover{
+    background-color: rgb(212, 14, 14);
+}
+#Diamond:hover{
+    background-color: blue;
+}
+#Diamond {
+    rotate: 45deg;
+    margin-top: 50px;
+}    
+#Diamond h1{
+    rotate: -45deg;
+}
